@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Cochr/CLionProjects/DataStructures/ArrayClass.h
+
+C:/Users/Cochr/CLionProjects/DataStructures/main.cpp
+iostream
+-
+string
+-
+ArrayClass.h
+C:/Users/Cochr/CLionProjects/DataStructures/ArrayClass.h
+
