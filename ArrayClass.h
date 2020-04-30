@@ -7,17 +7,24 @@
 
 class ArrayClass {
 public:
-    ArrayClass();
-    ~ArrayClass();
+    ArrayClass(int length){
+        data = new int[length];
+    };
+
+    ~ArrayClass(){
+        delete[] data;
+    };
     int getData(int index);
     void setData(int val);
     int getLength();
     void setLength(int len);
 
 private:
-    int data[5];
+    int * data;
     int length = 0;
 };
+
+
 
 
 #endif //DATASTRUCTURES_ARRAYCLASS_H
