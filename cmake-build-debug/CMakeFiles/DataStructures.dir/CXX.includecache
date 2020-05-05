@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Cochr/CLionProjects/DataStructures/ArrayClass.cpp
+ArrayClass.h
 C:/Users/Cochr/CLionProjects/DataStructures/ArrayClass.h
-
-C:/Users/Cochr/CLionProjects/DataStructures/main.cpp
 iostream
 -
-string
+stdlib.h
 -
-ArrayClass.h
+
 C:/Users/Cochr/CLionProjects/DataStructures/ArrayClass.h
 
